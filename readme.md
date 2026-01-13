@@ -2,6 +2,8 @@
 
 This repository contains a **Supervised Learning** implementation to analyze and forecast chatbot usage growth. It demonstrates the fundamental "Pattern" of Machine Learning: transitioning from raw data to predictive insights using **Regression** and **Classification**.
 
+---
+
 ## 🚀 The Pattern: Machine Learning Foundations
 To crack roles in GenAI, understanding the underlying math of these two models is essential. 
 
@@ -31,3 +33,30 @@ The analysis is based on `chatbot_usage_2025.csv`, which tracks monthly usage vo
 1. **Install Dependencies**:
    ```bash
    pip install pandas numpy matplotlib scikit-learn
+1. **Execute the Script:**:
+   ```bash
+   python supervised_learning.py
+
+## 📊 Visual Outputs
+
+1. **Model Visualization (Graph)**:  
+   The following plot shows the Linear Regression trend line versus the Logistic Regression sigmoid curve.
+   
+
+3. **Execution Output (Terminal Screenshot)**:  
+   This screenshot shows the successful execution of the script, including the data preview and calculated losses.
+
+---
+
+## 🧠 Why this matters for GenAI
+
+In Generative AI, these foundations are used for:
+- **Resource Forecasting**: Using Regression to predict GPU needs.
+- **Probability Logic**: Classification is the core of how LLMs select the most likely "next token."
+- **Guardrails**: Detecting and blocking toxic prompts via classification.
+
+---
+
+## 🏁 Future Work
+- Implement Unsupervised Learning (K-Means) to cluster user behavior patterns.
+- Transition from scikit-learn to PyTorch for deeper neural network implementation.
