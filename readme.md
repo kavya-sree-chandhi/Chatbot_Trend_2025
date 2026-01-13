@@ -41,10 +41,12 @@ The analysis is based on `chatbot_usage_2025.csv`, which tracks monthly usage vo
 
 1. **Model Visualization (Graph)**:  
    The following plot shows the Linear Regression trend line versus the Logistic Regression sigmoid curve.
-   
+   <img width="1200" height="500" alt="image" src="https://github.com/user-attachments/assets/71d99dab-a086-407a-98ef-ba7ff5e52c84" />
+
 
 3. **Execution Output (Terminal Screenshot)**:  
    This screenshot shows the successful execution of the script, including the data preview and calculated losses.
+   <img width="1847" height="874" alt="image" src="https://github.com/user-attachments/assets/01f8e859-3c92-4974-a3e9-3651f4373718" />
 
 ---
 
